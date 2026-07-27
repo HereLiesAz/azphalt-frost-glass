@@ -1,0 +1,33 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.frost-glass",
+  "name": "Frost Glass",
+  "version": "1.0.0",
+  "kind": "asset",
+  "license": "LicenseRef-Proprietary",
+  "compat": ">=0.1",
+  "description": "Diffuses the frame through frosted glass \u2014 a soft, privacy-glass scatter that keeps colour but dissolves detail.",
+  "author": "HereLiesAz",
+  "targetApps": [
+    "com.hereliesaz.guillotine"
+  ],
+  "assets": [
+    {
+      "type": "shader",
+      "path": "assets/frost-glass.fs",
+      "ui": "ui/panel.json",
+      "params": {
+        "format": "isf"
+      },
+      "tags": [
+        "shader",
+        "distortion",
+        "frost",
+        "glass",
+        "diffusion",
+        "soft-focus",
+        "one-click"
+      ]
+    }
+  ]
+}
